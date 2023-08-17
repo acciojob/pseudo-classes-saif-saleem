@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+/* *{
+	margin:0px;
+	padding:0px;
+} */
+:root{
+	background-color:rgb(135, 206, 235)
+}
+p:first-child{
+	
+	color:white;
+	background-color:black;
+}
+
+p:last-child{
+	color:red;
+}
+/* #ind{
+	width:50%;
+} */
+li{
+	width:50%;
+	padding:10px:
+	background-color: grey;
+}
+
+li:nth-child(odd){
+	background-color:white
+}
+li:nth-child(even){
+	background-color:grey;
+}
+li:first-child{
+	font-size:22px;
+}
+li:last-child{
+	font-size:22px;
+}
+li:nth-last-child(3){
+	background-color:pink;
+}
